@@ -29,7 +29,7 @@ module: poldek
 short_description: Manages packages with the I(poldek) package manager
 description:
      - Will install, upgrade, remove, and list packages with the I(poldek) package manager.
-version_added: "1.1"
+version_added: "1.2"
 options:
   name:
     description:
