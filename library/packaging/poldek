@@ -53,8 +53,8 @@ options:
 examples:
    - code: poldek name=apache state=installed
    - code: poldek name=apache state=absent
-   - code: poldek name=apache state=installed, update_cache=yes"
-      description: update the package database and install apache (apache will be the updated if a newer version exists) 
+   - code: poldek name=apache state=installed, update_cache=yes
+     description: update the package database and install apache (apache will be the updated if a newer version exists) 
 notes: []
 # informational: requirements for nodes
 requirements: [ poldek , rpm ]
